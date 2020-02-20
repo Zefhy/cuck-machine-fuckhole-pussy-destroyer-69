@@ -1,0 +1,458 @@
+<html>
+
+<head>
+  <!-- <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script> -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <!--<script src="nui://game/ui/jquery.js" type="text/javascript"></script> -->
+  <script src="locales/en.js"></script>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="tabs.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="skinClotheshop">
+    <input id="radio1" type="radio" name="css-tabs">
+    <input id="radio2" type="radio" name="css-tabs" checked>
+    <input id="radio3" type="radio" name="css-tabs">
+    <div id="tabs">
+      <label id="tab1" for="" data-link="vetements">Tvář</label>
+      <label id="tab2" for="radio2" data-link="vetements">Vzhled</label>
+      <label id="tab3" for="" data-link="vetements">Oblečení</label>
+    </div>
+    <div id="content">
+      <form id="formskinClotheshop">
+        <section id="content1">
+          <div class="block visage active">
+		  </div>
+        </section>
+        <section id="content3">
+          <div class="block pilosite active">
+		  </div>
+        </section>
+        <section id="content2">
+          <div class="block vetements active">
+            <div class="group">
+              <h2 id="hatsHeader">Chapeau</h2>
+			  <div class="vetements-value" data-legend="">0</div>
+              <ul class="chapeaux">
+				<button type="button" class="arrow arrowvetement-left">&nbsp;</button>
+				<li order="0" data="0" class="active">Default</li>
+				<li order="1" data="1">Hat 1</li>
+				<li order="2" data="2">Hat 2</li>
+				<li order="3" data="3">Hat 3</li>
+				<li order="4" data="4">Hat 4</li>
+				<li order="5" data="5">Hat 5</li>
+				<li order="6" data="6">Hat 6 </li>
+				<li order="7" data="7">Hat 7</li>
+				<li order="8" data="8">Hat 8</li>
+				<li order="9" data="9">Hat 9</li>
+				<li order="10" data="10">Hat 10</li>
+				<li order="11" data="11">Hat 11</li>
+				<li order="12" data="12">Hat 12</li>
+				<li order="13" data="13">Hat 13</li>
+				<li order="14" data="14">Hat 14</li>
+				<li order="15" data="15">Hat 15</li>
+				<li order="16" data="16">Hat 16</li>
+				<li order="17" data="17">Hat 17</li>
+				<li order="18" data="18">Hat 18</li>
+				<li order="19" data="19">Hat 19</li>
+				<li order="20" data="20">Hat 20</li>
+				<li order="21" data="21">Hat 21</li>
+				<li order="22" data="22">Hat 22</li>
+				<li order="23" data="23">Hat 23</li>
+				<li order="24" data="24">Hat 24</li>
+				<li order="25" data="25">Hat 25</li>
+				<li order="26" data="26">Hat 26 </li>
+				<li order="27" data="27">Hat 27</li>
+				<li order="28" data="28">Hat 28</li>
+				<li order="29" data="29">Hat 29</li>
+				<li order="30" data="30">Hat 30</li>
+				<li order="31" data="31">Hat 31</li>
+				<li order="32" data="32">Hat 32</li>
+				<li order="33" data="33">Hat 33</li>
+				<li order="34" data="34">Hat 34</li>
+				<li order="35" data="35">Hat 35</li>
+				<li order="36" data="36">Hat 36 </li>
+				<li order="37" data="37">Hat 37</li>
+				<li order="38" data="38">Hat 38</li>
+				<li order="39" data="39">Hat 39</li>
+				<li order="40" data="40">Hat 40</li>
+				<li order="41" data="41">Hat 41</li>
+				<li order="42" data="42">Hat 42</li>
+				<li order="43" data="43">Hat 43</li>
+				<li order="44" data="44">Hat 44</li>
+				<li order="45" data="45">Hat 45</li>
+				<li order="46" data="46">Hat 46</li>
+				<li order="47" data="47">Hat 47</li>
+				<li order="48" data="48">Hat 48</li>
+				<li order="49" data="49">Hat 49</li>
+				<li order="50" data="50">Hat 50</li>
+				<button type="button" class="arrow arrowvetement-right">&nbsp;</button>
+			  </ul>
+			  <div class="input">
+				<div class="label">Hat color</div>
+				<div class="label-value" name="helmet_2" data-legend="0"></div>
+				<div class="type-range">
+				  <a href="#" class="arrow arrow-left">&nbsp;</a>
+				  <input value="0" type="range" class="helmet_2" min="0" max="0">
+				  <a href="#" class="arrow arrow-right">&nbsp;</a>
+				</div>
+			  </div>
+            </div>
+            <div class="group">
+			  <h2 id="glassesHeader">Lunettes</h2>
+			  <div class="vetements-value" data-legend="">0</div>
+			  <ul class="lunettes">
+				<button type="button" class="arrow arrowvetement-left">&nbsp;</button>
+				<li order="0" data="0" class="active">Default</li>
+				<li order="1" data="1">Glasses 1</li>
+				<li order="2" data="2">Glasses 2</li>
+				<li order="3" data="3">Glasses 3</li>
+				<li order="4" data="4">Glasses 4</li>
+				<li order="5" data="1">Glasses 5</li>
+				<li order="6" data="6">Glasses 6 </li>
+				<li order="7" data="7">Glasses 7</li>
+				<li order="8" data="8">Glasses 8</li>
+				<li order="9" data="9">Glasses 9</li>
+				<li order="10" data="10">Glasses 10</li>
+				<button type="button" class="arrow arrowvetement-right">&nbsp;</button>
+			  </ul>
+			  <div class="input">
+				<div class="label">Glasses color</div>
+				<div class="label-value" name="glasses_2" data-legend="0"></div>
+				<div class="type-range">
+				  <a href="#" class="arrow arrow-left">&nbsp;</a>
+				  <input value="0" type="range" class="glasses_2" min="0" max="0">
+				  <a href="#" class="arrow arrow-right">&nbsp;</a>
+				</div>
+			  </div>
+			</div>
+            <div class="group">
+              <h2 id="earringsHeader">Oreilles</h2>
+              <div class="vetements-value" data-legend="">0</div>
+              <ul class="oreilles">
+                <button type="button" class="arrow arrowvetement-left">&nbsp;</button>
+                <li order="0" data="0" class="active">Default</li>
+				<li order="1" data="1">Ears 1</li>
+				<li order="2" data="2">Ears 2</li>
+				<li order="3" data="3">Ears 3</li>
+				<li order="4" data="4">Ears 4</li>
+				<li order="5" data="5">Ears 5</li>
+				<li order="6" data="6">Ears 6 </li>
+				<li order="7" data="7">Ears 7</li>
+				<li order="8" data="8">Ears 8</li>
+				<li order="9" data="9">Ears 9</li>
+				<li order="10" data="10">Ears 10</li>
+				<li order="11" data="11">Ears 11</li>
+				<li order="12" data="12">Ears 12</li>
+				<li order="13" data="13">Ears 13</li>
+				<li order="14" data="14">Ears 14</li>
+				<li order="15" data="15">Ears 15</li>
+                <button type="button" class="arrow arrowvetement-right">&nbsp;</button>
+              </ul>
+			  <div class="input">
+				<div class="label">Ears color</div>
+				<div class="label-value" name="ears_2" data-legend="0"></div>
+				<div class="type-range">
+				  <a href="#" class="arrow arrow-left">&nbsp;</a>
+				  <input value="0" type="range" class="ears_2" min="0" max="0">
+				  <a href="#" class="arrow arrow-right">&nbsp;</a>
+				</div>
+			  </div>
+            </div>
+
+            <div class="group">
+              <h2 id="topsHeader">Hauts</h2>
+              <div class="vetements-value" data-legend="">0</div>
+              <ul class="hauts">
+                <button type="button" class="arrow arrowvetement-left">&nbsp;</button>
+					<li order="0" data="0" class="active">Default</li>
+                    <li order="1" data="1">T-shirt 1</li>
+                    <li order="2" data="2">T-shirt 2</li>
+                    <li order="3" data="3">T-shirt 3</li>
+                    <li order="4" data="4">T-shirt 4</li>
+                    <li order="5" data="5">T-shirt 5</li>
+                    <li order="6" data="6">T-shirt 6 </li>
+                    <li order="7" data="7">T-shirt 7</li>
+                    <li order="8" data="8">T-shirt 8</li>
+                    <li order="9" data="9">T-shirt 9</li>
+                    <li order="10" data="10">T-shirt 10</li>
+                    <li order="11" data="11">T-shirt 11</li>
+                    <li order="12" data="12">T-shirt 12</li>
+                    <li order="13" data="13">T-shirt 13</li>
+                    <li order="14" data="14">T-shirt 14</li>
+                    <li order="15" data="15">T-shirt 15</li>
+                    <li order="16" data="16">T-shirt 16</li>
+                    <li order="17" data="17">T-shirt 17</li>
+                    <li order="18" data="18">T-shirt 18</li>
+                    <li order="19" data="19">T-shirt 19</li>
+                    <li order="20" data="20">T-shirt 20</li>
+                    <li order="21" data="21">T-shirt 21</li>
+                    <li order="22" data="22">T-shirt 22</li>
+                    <li order="23" data="23">T-shirt 23</li>
+                    <li order="24" data="24">T-shirt 24</li>
+                    <li order="25" data="25">T-shirt 25</li>
+                    <li order="26" data="26">T-shirt 26 </li>
+                    <li order="27" data="27">T-shirt 27</li>
+                    <li order="28" data="28">T-shirt 28</li>
+                    <li order="29" data="29">T-shirt 29</li>
+                    <li order="30" data="30">T-shirt 30</li>
+                    <li order="31" data="31">T-shirt 31</li>
+                    <li order="32" data="32">T-shirt 32</li>
+                    <li order="33" data="33">T-shirt 33</li>
+                    <li order="34" data="34">T-shirt 34</li>
+                    <li order="35" data="35">T-shirt 35</li>
+                    <li order="36" data="36">T-shirt 36 </li>
+                    <li order="37" data="37">T-shirt 37</li>
+                    <li order="38" data="38">T-shirt 38</li>
+                    <li order="39" data="39">T-shirt 39</li>
+                    <li order="40" data="40">T-shirt 40</li>
+                    <li order="41" data="41">T-shirt 41</li>
+                    <li order="42" data="42">T-shirt 42</li>
+                    <li order="43" data="43">T-shirt 43</li>
+                    <li order="44" data="44">T-shirt 44</li>
+                    <li order="45" data="45">T-shirt 45</li>
+                    <li order="46" data="46">T-shirt 46</li>
+                    <li order="47" data="47">T-shirt 47</li>
+                    <li order="48" data="48">T-shirt 48</li>
+                    <li order="49" data="49">T-shirt 49</li>
+                    <li order="50" data="50">T-shirt 50</li>
+                    <li order="51" data="51">T-shirt 51</li>
+                    <li order="52" data="52">T-shirt 52</li>
+                    <li order="53" data="53">T-shirt 53</li>
+                    <li order="54" data="54">T-shirt 54</li>
+                    <li order="55" data="55">T-shirt 55</li>
+                    <li order="56" data="56">T-shirt 56 </li>
+                    <li order="57" data="57">T-shirt 57</li>
+                    <li order="58" data="58">T-shirt 58</li>
+                    <li order="59" data="59">T-shirt 59</li>
+                    <li order="60" data="60">T-shirt 60</li>
+                    <li order="61" data="61">T-shirt 61</li>
+                    <li order="62" data="62">T-shirt 62</li>
+                    <li order="63" data="63">T-shirt 63</li>
+                    <li order="64" data="64">T-shirt 64</li>
+                    <li order="65" data="65">T-shirt 65</li>
+                    <li order="66" data="66">T-shirt 66</li>
+                    <li order="67" data="67">T-shirt 67</li>
+                    <li order="68" data="68">T-shirt 68</li>
+                    <li order="69" data="69">T-shirt 69</li>
+                    <li order="70" data="70">T-shirt 70</li>
+                    <li order="71" data="71">T-shirt 71</li>
+                    <li order="72" data="72">T-shirt 72</li>
+                    <li order="73" data="73">T-shirt 73</li>
+                    <li order="74" data="74">T-shirt 74</li>
+                    <li order="75" data="75">T-shirt 75</li>
+                    <li order="76" data="76">T-shirt 76</li>
+                    <li order="77" data="77">T-shirt 77</li>
+                    <li order="78" data="78">T-shirt 78</li>
+                    <li order="79" data="79">T-shirt 79</li>
+                    <li order="80" data="80">T-shirt 80</li>
+                    <li order="81" data="81">T-shirt 81</li>
+                    <li order="82" data="82">T-shirt 82</li>
+                    <li order="83" data="83">T-shirt 83</li>
+                    <li order="84" data="84">T-shirt 84</li>
+                    <li order="85" data="85">T-shirt 85</li>
+                    <li order="86" data="86">T-shirt 86</li>
+                    <li order="87" data="87">T-shirt 87</li>
+                    <li order="88" data="88">T-shirt 88</li>
+                    <li order="89" data="89">T-shirt 89</li>
+                    <li order="90" data="90">T-shirt 90</li>
+                    <li order="91" data="91">T-shirt 91</li>
+                    <li order="92" data="92">T-shirt 92</li>
+                    <li order="93" data="93">T-shirt 93</li>
+                    <li order="94" data="94">T-shirt 94</li>
+                    <li order="95" data="95">T-shirt 95</li>
+                    <li order="96" data="96">T-shirt 96</li>
+                    <li order="97" data="97">T-shirt 97</li>
+                    <li order="98" data="98">T-shirt 98</li>
+                    <li order="99" data="99">T-shirt 99</li>
+                    <li order="100" data="100">T-shirt 100</li>
+                <button type="button" class="arrow arrowvetement-right">&nbsp;</button>
+              </ul>
+            </div>
+
+            <div class="group">
+              <h2 id="jeansHeader">Jambes</h2>
+              <div class="vetements-value" data-legend="">0</div>
+              <ul class="pantalons">
+                <button type="button" class="arrow arrowvetement-left">&nbsp;</button>
+					<li order="0" data="0" class="active">Default</li>
+					<li order="1" data="1">Pants 1</li>
+					<li order="2" data="2">Pants 2</li>
+					<li order="3" data="3">Pants 3</li>
+					<li order="4" data="4">Pants 4</li>
+					<li order="5" data="5">Pants 5</li>
+					<li order="6" data="6">Pants 6 </li>
+					<li order="7" data="7">Pants 7</li>
+					<li order="8" data="8">Pants 8</li>
+					<li order="9" data="9">Pants 9</li>
+					<li order="10" data="10">Pants 10</li>
+					<li order="11" data="11">Pants 11</li>
+					<li order="12" data="12">Pants 12</li>
+					<li order="13" data="13">Pants 13</li>
+					<li order="14" data="14">Pants 14</li>
+					<li order="15" data="15">Pants 15</li>
+					<li order="16" data="16">Pants 16</li>
+					<li order="17" data="17">Pants 17</li>
+					<li order="18" data="18">Pants 18</li>
+					<li order="19" data="19">Pants 19</li>
+					<li order="20" data="20">Pants 20</li>
+					<li order="21" data="21">Pants 21</li>
+					<li order="22" data="22">Pants 22</li>
+					<li order="23" data="23">Pants 23</li>
+					<li order="24" data="24">Pants 24</li>
+					<li order="25" data="25">Pants 25</li>
+					<li order="26" data="26">Pants 26 </li>
+					<li order="27" data="27">Pants 27</li>
+					<li order="28" data="28">Pants 28</li>
+					<li order="29" data="29">Pants 29</li>
+					<li order="30" data="30">Pants 30</li>
+					<li order="31" data="31">Pants 31</li>
+					<li order="32" data="32">Pants 32</li>
+					<li order="33" data="33">Pants 33</li>
+					<li order="34" data="34">Pants 34</li>
+					<li order="35" data="35">Pants 35</li>
+					<li order="36" data="36">Pants 36 </li>
+					<li order="37" data="37">Pants 37</li>
+					<li order="38" data="38">Pants 38</li>
+					<li order="39" data="39">Pants 39</li>
+					<li order="40" data="40">Pants 40</li>
+					<li order="41" data="41">Pants 41</li>
+					<li order="42" data="42">Pants 42</li>
+					<li order="43" data="43">Pants 43</li>
+					<li order="44" data="44">Pants 44</li>
+					<li order="45" data="45">Pants 45</li>
+					<li order="46" data="46">Pants 46</li>
+					<li order="47" data="47">Pants 47</li>
+					<li order="48" data="48">Pants 48</li>
+					<li order="49" data="49">Pants 49</li>
+					<li order="50" data="50">Pants 50</li>
+					<li order="51" data="51">Pants 51</li>
+					<li order="52" data="52">Pants 52</li>
+					<li order="53" data="53">Pants 53</li>
+					<li order="54" data="54">Pants 54</li>
+					<li order="55" data="55">Pants 55</li>
+					<li order="56" data="56">Pants 56 </li>
+					<li order="57" data="57">Pants 57</li>
+					<li order="58" data="58">Pants 58</li>
+					<li order="59" data="59">Pants 59</li>
+					<li order="60" data="60">Pants 60</li>
+					<li order="61" data="61">Pants 61</li>
+					<li order="62" data="62">Pants 62</li>
+					<li order="63" data="63">Pants 63</li>
+					<li order="64" data="64">Pants 64</li>
+					<li order="65" data="65">Pants 65</li>
+					<li order="66" data="66">Pants 66</li>
+					<li order="67" data="67">Pants 67</li>
+					<li order="68" data="68">Pants 68</li>
+					<li order="69" data="69">Pants 69</li>
+					<li order="70" data="70">Pants 70</li>
+                <button type="button" class="arrow arrowvetement-right">&nbsp;</button>
+              </ul>
+            </div>
+
+            <div class="group">
+              <h2 id="shoesHeader">Pieds</h2>
+              <div class="vetements-value" data-legend="">0</div>
+              <ul class="chaussures">
+                <button type="button" class="arrow arrowvetement-left">&nbsp;</button>
+					<li order="0" data="0" class="active">Default</li>
+					<li order="1" data="1">Shoes 1</li>
+					<li order="2" data="2">Shoes 2</li>
+					<li order="3" data="3">Shoes 3</li>
+					<li order="4" data="4">Shoes 4</li>
+					<li order="5" data="5">Shoes 5</li>
+					<li order="6" data="6">Shoes 6 </li>
+					<li order="7" data="7">Shoes 7</li>
+					<li order="8" data="8">Shoes 8</li>
+					<li order="9" data="9">Shoes 9</li>
+					<li order="10" data="10">Shoes 10</li>
+					<li order="11" data="11">Shoes 11</li>
+					<li order="12" data="12">Shoes 12</li>
+					<li order="13" data="13">Shoes 13</li>
+					<li order="14" data="14">Shoes 14</li>
+					<li order="15" data="15">Shoes 15</li>
+					<li order="16" data="16">Shoes 16</li>
+					<li order="17" data="17">Shoes 17</li>
+					<li order="18" data="18">Shoes 18</li>
+					<li order="19" data="19">Shoes 19</li>
+					<li order="20" data="20">Shoes 20</li>
+					<li order="21" data="21">Shoes 21</li>
+					<li order="22" data="22">Shoes 22</li>
+					<li order="23" data="23">Shoes 23</li>
+					<li order="24" data="24">Shoes 24</li>
+					<li order="25" data="25">Shoes 25</li>
+					<li order="26" data="26">Shoes 26 </li>
+					<li order="27" data="27">Shoes 27</li>
+					<li order="28" data="28">Shoes 28</li>
+					<li order="29" data="29">Shoes 29</li>
+					<li order="30" data="30">Shoes 30</li>
+					<li order="31" data="31">Shoes 31</li>
+					<li order="32" data="32">Shoes 32</li>
+					<li order="33" data="33">Shoes 33</li>
+					<li order="34" data="34">Shoes 34</li>
+					<li order="35" data="35">Shoes 35</li>
+					<li order="36" data="36">Shoes 36 </li>
+					<li order="37" data="37">Shoes 37</li>
+					<li order="38" data="38">Shoes 38</li>
+					<li order="39" data="39">Shoes 39</li>
+					<li order="40" data="40">Shoes 40</li>
+					<li order="41" data="41">Shoes 41</li>
+					<li order="42" data="42">Shoes 42</li>
+					<li order="43" data="43">Shoes 43</li>
+					<li order="44" data="44">Shoes 44</li>
+					<li order="45" data="45">Shoes 45</li>
+					<li order="46" data="46">Shoes 46</li>
+					<li order="47" data="47">Shoes 47</li>
+					<li order="48" data="48">Shoes 48</li>
+					<li order="49" data="49">Shoes 49</li>
+					<li order="50" data="50">Shoes 50</li>
+                <button type="button" class="arrow arrowvetement-right">&nbsp;</button>
+              </ul>
+            </div>
+
+            <div class="group">
+              <h2 id="watchHeader">Montre</h2>
+              <div class="vetements-value" data-legend="">0</div>
+              <ul class="montre">
+                <button type="button" class="arrow arrowvetement-left">&nbsp;</button>
+                    <li order="0" data="0" class="active">Default</li>
+					<li order="1" data="9">Watches 1</li>
+					<li order="2" data="2">Watches 2</li>
+					<li order="3" data="3">Watches 3</li>
+					<li order="4" data="4">Watches 4</li>
+					<li order="5" data="5">Watches 5</li>
+					<li order="6" data="6">Watches 6 </li>
+					<li order="7" data="7">Watches 7</li>
+                <button type="button" class="arrow arrowvetement-right">&nbsp;</button>
+              </ul>
+            </div>
+
+          </div>
+        </section>
+        <button class="submit" id="finishButton">Terminer</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="rotation">
+    <div class="button">A</div>
+    <div class="button">E</div>
+    <p id="rotationLabel">Rotation personnage</p>
+  </div>
+
+  <div class="popup confirmation">
+    <p id="popupConfirm">Êtes-vous sûr de vouloir valider votre apparence ?</p>
+    <div class="buttons">
+      <div id="popupYes" class="button yes">Oui</div>
+      <div id="popupNo" class="button no">Non</div>
+    </div>
+  </div>
+
+  <!-- JS Scripts -->
+  <script src="front.js" type="text/javascript"></script>
+  <script src="script.js" type="text/javascript"></script>
+</body>
+
+</html>
